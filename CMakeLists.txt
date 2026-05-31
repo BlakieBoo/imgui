@@ -10,6 +10,7 @@ file(GLOB imgui_CPP
 
 add_library(imgui
 	${imgui_CPP}
+    "${imgui_PATH}/misc/cpp/imgui_stdlib.cpp"
 )
 
 target_include_directories(imgui PUBLIC
